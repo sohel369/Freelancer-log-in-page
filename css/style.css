@@ -76,9 +76,16 @@ body {
   margin: 0 auto;
   width: 96%;
 }
+.container form .name {
+  margin: 0 auto;
+  width: 96%;
+}
 .container form #Fname {
-  width: 40%;
-  margin-right: 10%;
+  width: 45%;
+}
+.container form .Lname {
+  width: 45%;
+  margin-left: 20px;
 }
 .container form input {
   padding: 10px 0;
@@ -155,6 +162,13 @@ body {
     margin-top: 20px;
   }
   form .name #Fname {
+    width: 100%;
+  }
+  form .name .Lname {
+    width: 100%;
+    margin-left: 0;
+  }
+  form #email {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

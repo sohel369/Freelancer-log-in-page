@@ -83,10 +83,18 @@ body {
             margin: 0 auto;
             width: 96%;
         }
-
+        .name {
+            margin: 0 auto;
+            width: 96%;
+        }
+        
         #Fname {
-            width: 40%;
-            margin-right: 10%;
+            width: 45%;
+            // margin-right: 10%;
+        }
+        .Lname{
+            width: 45%;
+            margin-left: 20px;
         }
 
         input {
@@ -178,6 +186,13 @@ body {
             #Fname {
                 width: 100%;
             }
+            .Lname{
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+        #email{
+            width: 100%;
         }
     }
 }
