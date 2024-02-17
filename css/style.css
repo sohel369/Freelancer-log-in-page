@@ -79,6 +79,7 @@ body {
 .container form .name {
   margin: 0 auto;
   width: 96%;
+  margin-bottom: 20px;
 }
 .container form #Fname {
   width: 45%;
@@ -140,6 +141,7 @@ body {
 }
 .container p {
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 .container p a {
   color: #4267B2;
